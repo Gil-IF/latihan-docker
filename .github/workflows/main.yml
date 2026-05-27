@@ -78,4 +78,4 @@ jobs:
       # Push Docker image to Docker Hub
       - name: Push Docker Image
         run: |
-          docker push ${{ secrets.gilbertchre }}/cc:latest
+          docker push ${{ secrets.gilbertchr }}/cc:latest
